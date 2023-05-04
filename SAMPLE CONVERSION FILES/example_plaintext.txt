@@ -1,0 +1,15 @@
+The application can convert any instance of sound.Add so long as its in this format
+
+sound.Add( {
+    name = "Plain_Text",
+    channel = CHAN_PlainText,
+    volume = 1.0,
+    level = 60,
+    pitch = {95, 110},
+    sound = {
+        "plaintext/plaintext.ogg",
+		"plaintext/plaintext1.ogg",
+		"plaintext/plaintext2.ogg",
+		"plaintext/plaintext3.ogg",
+    }
+} )
