@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -47,7 +47,7 @@ namespace project2.Controllers
             {
                 var compile = true;
                 compile= file.Equals(compile);
-                Compiler compiler; //decompile
+                Console.Write(compile);//decompile
             }
 
             //oh boy, here we go
