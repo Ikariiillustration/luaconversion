@@ -1,4 +1,4 @@
-The application can convert any instance of sound.Add so long as its in this format
+The application can convert any instance of sound.Add so long as its in this format, feel free to try and create your own input
 
 sound.Add( {
     name = "Plain_Text",
