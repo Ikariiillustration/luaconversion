@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="text-center">
+    <h1>Lua to Manifest Converter</h1>
+    <p class="lead">Please select a file to convert to manifest.</p>
+    <p>
+        @using (Html.BeginForm("Index", "Home", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+        {
+            <br />
+
+            <input type="file" id="inp" name="file" accept=".txt, .lua" required />
+            <style>
+                #inp {
+                    text-align: center;
+                    margin: auto;
+                }
+            </style>
+
+            <br />
+
+
+            <br />
+            <input type="submit" value="Convert" />
+        }
+    </p>
+</div>
